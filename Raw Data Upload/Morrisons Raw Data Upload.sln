@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Morrisons Raw Data Upload", "Morrisons Raw Data Upload\Morrisons Raw Data Upload.dtproj", "{B9F3B5D1-3613-426B-918C-E80D8776B01B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9F3B5D1-3613-426B-918C-E80D8776B01B}.Development|Default.ActiveCfg = Development
+		{B9F3B5D1-3613-426B-918C-E80D8776B01B}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,129 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="87786f4d-d766-41d5-b766-c40dcd510dfa" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>MorrisonsCube</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Tbl Raw Extract</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="99561bbb-1f5c-49cd-bff7-2919a8f3bd2c">
+          <ID>Tbl Raw Extract</ID>
+          <Name>2014</Name>
+          <CreatedTimestamp>2018-01-22T16:10:40.323333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2018-04-30T16:03:28.363333Z</LastSchemaUpdate>
+          <LastProcessed>2018-04-21T09:22:56.02Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding" dwd:design-time-name="bd26daf6-c011-460e-aedf-7785b4f2bd9c">
+            <DataSourceID>MorrisonsDS</DataSourceID>
+            <QueryDefinition>SELECT        ID, CMPNY_WK_1, XWMM_POS_TYP_CD, sum_NET_AMT, MRCH_DIV_KEY, MRCH_GRP_KEY, MRCH_CTGRY_KEY, BSNS_UNIT_CD, LNG_DESC, REGISTERED_CARD_NUMBER, count_TRX_NBR, GENDER, 
+                         NUMBER_OF_CHILDREN, HOUSEHOLD_SIZE, DECEASED_FLAG
+FROM            tblRawExtract
+WHERE        (CMPNY_WK_1 &lt;= 1848)</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="3bcc5b8c-712f-4264-b5e7-1325dbb919e0">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="24b677f3-e30f-43f5-b064-8e611b683cdf" />
+          </ProactiveCaching>
+          <EstimatedSize>16892628514</EstimatedSize>
+        </Partition>
+        <Partition dwd:design-time-name="ede4d83f-572b-4f9b-b857-1a725d066f34">
+          <ID>2015</ID>
+          <Name>2015</Name>
+          <CreatedTimestamp>2018-04-30T15:11:15.143333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2018-04-30T16:03:29.706667Z</LastSchemaUpdate>
+          <Annotations>
+            <Annotation>
+              <Name>AggregationPercent</Name>
+            </Annotation>
+          </Annotations>
+          <LastProcessed>2018-05-02T21:26:30.97Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding" dwd:design-time-name="09864821-8085-4276-806a-5d6fb11e8e10">
+            <DataSourceID>MorrisonsDS</DataSourceID>
+            <QueryDefinition>SELECT        ID, CMPNY_WK_1, XWMM_POS_TYP_CD, sum_NET_AMT, MRCH_DIV_KEY, MRCH_GRP_KEY, MRCH_CTGRY_KEY, BSNS_UNIT_CD, LNG_DESC, REGISTERED_CARD_NUMBER, count_TRX_NBR, GENDER, 
+                         NUMBER_OF_CHILDREN, HOUSEHOLD_SIZE, DECEASED_FLAG
+FROM            tblRawExtract
+WHERE CMPNY_WK_1 between 1849 and 1948</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="8cdfda0f-469a-4162-b0a8-ce188a3f67b5">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="5a79b812-8a16-4a21-8856-706b3ce40613" />
+          </ProactiveCaching>
+          <EstimatedSize>81042048027</EstimatedSize>
+        </Partition>
+        <Partition dwd:design-time-name="0a8ae586-5b09-4358-b65b-a8e8e74e7a09">
+          <ID>2016</ID>
+          <Name>2016</Name>
+          <CreatedTimestamp>2018-04-30T16:01:04.63Z</CreatedTimestamp>
+          <LastSchemaUpdate>2018-04-30T16:03:30.346667Z</LastSchemaUpdate>
+          <Annotations>
+            <Annotation>
+              <Name>AggregationPercent</Name>
+            </Annotation>
+          </Annotations>
+          <LastProcessed>2018-05-05T16:32:07.86Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding" dwd:design-time-name="a4940499-dd35-442b-b4da-8deab0cb2869">
+            <DataSourceID>MorrisonsDS</DataSourceID>
+            <QueryDefinition>SELECT        ID, CMPNY_WK_1, XWMM_POS_TYP_CD, sum_NET_AMT, MRCH_DIV_KEY, MRCH_GRP_KEY, MRCH_CTGRY_KEY, BSNS_UNIT_CD, LNG_DESC, REGISTERED_CARD_NUMBER, count_TRX_NBR, GENDER, 
+                         NUMBER_OF_CHILDREN, HOUSEHOLD_SIZE, DECEASED_FLAG
+FROM            tblRawExtract
+WHERE CMPNY_WK_1 between 1949 and 2048</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="8411a068-40a7-46e9-a473-6974a111e9f2">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="1c0e5295-0b89-468d-9e96-9a1305c02a05" />
+          </ProactiveCaching>
+          <EstimatedSize>81906864757</EstimatedSize>
+        </Partition>
+        <Partition dwd:design-time-name="3084b150-5cba-4b97-b013-395936eba64f">
+          <ID>2017</ID>
+          <Name>2017</Name>
+          <CreatedTimestamp>2018-04-30T16:01:04.786667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2018-04-30T16:03:31.08Z</LastSchemaUpdate>
+          <Annotations>
+            <Annotation>
+              <Name>AggregationPercent</Name>
+            </Annotation>
+          </Annotations>
+          <LastProcessed>2018-05-10T19:53:46.853333Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding" dwd:design-time-name="21dcd8b1-dbd9-4033-9247-ba4604f08a66">
+            <DataSourceID>MorrisonsDS</DataSourceID>
+            <QueryDefinition>SELECT        ID, CMPNY_WK_1, XWMM_POS_TYP_CD, sum_NET_AMT, MRCH_DIV_KEY, MRCH_GRP_KEY, MRCH_CTGRY_KEY, BSNS_UNIT_CD, LNG_DESC, REGISTERED_CARD_NUMBER, count_TRX_NBR, GENDER, 
+                         NUMBER_OF_CHILDREN, HOUSEHOLD_SIZE, DECEASED_FLAG
+FROM            tblRawExtract
+WHERE CMPNY_WK_1 between 2049 and 2148</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="e81c1c3e-5f83-4024-9c38-f7955b766623">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="2aeb379e-5e3c-4c8b-8980-50a3fd5ecb2b" />
+          </ProactiveCaching>
+          <EstimatedSize>82917920534</EstimatedSize>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

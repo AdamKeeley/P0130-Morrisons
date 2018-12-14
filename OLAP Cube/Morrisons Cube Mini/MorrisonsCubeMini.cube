@@ -1,0 +1,454 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="40e91b1a-3aeb-4157-8be0-bf8e7c2e6ec6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>MorrisonsCubeMini</ID>
+  <Name>MorrisonsCubeMini</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1435" scrolltop="-1181" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="27384" y="17542" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="tblRawExtract_Sample" left="20" top="0" logicalid="12" controlid="1" masterid="0" hint1="0" hint2="0" width="5424" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00003015000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_tblRawExtract_Sample" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="nqProduct" left="774" top="7400" logicalid="13" controlid="2" masterid="0" hint1="0" hint2="0" width="3916" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00004c0f0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="nqProduct" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2333" top="4700" logicalid="14" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[tblRawExtract_Sample-nqProduct]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="6" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2732" y="7400" />
+              <point x="2732" y="5000" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vwCalendarDateDim" left="8149" top="106" logicalid="15" controlid="4" masterid="0" hint1="0" hint2="0" width="3307" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000eb0c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_vwCalendarDateDim" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="782" top="-700" logicalid="16" controlid="5" masterid="0" hint1="0" hint2="0" width="8320" height="1306" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[tblRawExtract_Sample-vwCalendarDateDim]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="0" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8702" y="106" />
+              <point x="8702" y="-400" />
+              <point x="1082" y="-400" />
+              <point x="1082" y="0" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="tlkCheckoutType" left="8355" top="5392" logicalid="17" controlid="6" masterid="0" hint1="0" hint2="0" width="3916" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00004c0f000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_tlkCheckoutType" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5144" top="0" logicalid="18" controlid="7" masterid="0" hint1="0" hint2="0" width="3511" height="6181" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[tblRawExtract_Sample-tlkCheckoutType]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="1" sourceattachpoint="14" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8355" y="5781" />
+              <point x="6900" y="5781" />
+              <point x="6900" y="300" />
+              <point x="5444" y="300" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="nqMosaic" left="13565" top="1121" logicalid="19" controlid="8" masterid="0" hint1="0" hint2="0" width="5001" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c000089130000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="Fixed Rectangle" value="0" vartype="2" />
+                <property name="LogicalObject" value="nqMosaic" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5144" top="1323" logicalid="20" controlid="9" masterid="0" hint1="0" hint2="0" width="8721" height="927" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[tblRawExtract_Sample-nqMosaic]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="1" sourceattachpoint="18" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13565" y="1722" />
+              <point x="9505" y="1722" />
+              <point x="9505" y="1950" />
+              <point x="5444" y="1950" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="nqSegment" left="11365" top="8027" logicalid="21" controlid="10" masterid="0" hint1="0" hint2="0" width="3201" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000810c0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="Fixed Rectangle" value="0" vartype="2" />
+                <property name="LogicalObject" value="nqSegment" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4744" top="4400" logicalid="22" controlid="11" masterid="0" hint1="0" hint2="0" width="6921" height="4628" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[tblRawExtract_Sample-nqSegment]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="1" sourceattachpoint="10" destattachpoint="35" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11365" y="8628" />
+              <point x="5044" y="8628" />
+              <point x="5044" y="4700" />
+              <point x="5444" y="4700" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1435</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1181</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="f4d39238-8bda-4053-bdbb-979d22235ff0">
+      <ID>ProductDim</ID>
+      <Name>ProductDim</Name>
+      <DimensionID>ProductDim</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f34c43be-e82e-4b31-88e2-b04e169af617">
+          <AttributeID>MRCH CTGRY KEY</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="85c2a2c2-5a4e-4047-af12-9dd37cbcf823">
+          <AttributeID>MRCH GRP KEY</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1040ef26-9a56-4246-902e-6b64a1b09e28">
+          <AttributeID>MRCH DIV KEY</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="79513605-71af-4a9c-8ade-303fdb82801a">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="c3e44f53-8994-4160-bff7-ed23754caec8">
+      <ID>CalendarDim</ID>
+      <Name>CalendarDim</Name>
+      <DimensionID>CalendarDim</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="662090b2-413f-4398-a887-a983f402c175">
+          <AttributeID>CMPNY WK 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a9f3ccf9-6d94-4e01-b120-0e4499cfbcca">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="096e8c5e-3170-4629-b0ce-efbb03d96abe">
+          <AttributeID>c Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6e637275-701f-45c9-91ab-7e38e24d8d14">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fa5b6cac-5a38-4232-a508-24f548abd35e">
+          <AttributeID>c Year Quarter</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="954d514b-abfc-45cc-9239-e5b6bb4e1ddf">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="a4bbe75c-b10a-44d6-92fc-dc8d47cbb30d">
+      <ID>CheckoutTypeDim</ID>
+      <Name>CheckoutTypeDim</Name>
+      <DimensionID>CheckoutTypeDim</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="78903f2a-77cf-47d5-8af3-c7b20553a4ed">
+          <AttributeID>XWMM POS TYP CD</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="811d34b5-5b6a-4154-ba06-9b53cf1c6d41">
+      <ID>MosaicDim</ID>
+      <Name>MosaicDim</Name>
+      <DimensionID>MosaicDim</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2b2b793a-96cb-43b0-bb92-1c3ae58e5a3a">
+          <AttributeID>REGISTERED CARD NUMBER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1ebd3217-7de2-49e5-8eeb-493439e1a394">
+          <AttributeID>Mosaic UK G</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a9805e69-be07-4bb5-968f-e4ceb710a052">
+          <AttributeID>Mosaic UK T</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="68faf125-7310-49ae-a307-35ee89df4aca">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="72f3eb37-ba06-433f-a609-f403711d2498">
+      <ID>StoreDim</ID>
+      <Name>StoreDim</Name>
+      <DimensionID>StoreDim</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e3f5864f-237e-44d1-8d21-7440556d0458">
+          <AttributeID>BSNS UNIT CD</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ed53a533-eb73-4273-9780-eea393276c67">
+          <AttributeID>Segment</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2f71480e-666b-4386-91d2-99e258886c0d">
+          <AttributeID>LNG DESC</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="5eb43d4f-46a0-44fd-ade1-778ee52d0c00">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="a1d188db-cb1d-4038-a4bb-96b0690c92b4">
+      <ID>Tbl Raw Extract Sample</ID>
+      <Name>Tbl Raw Extract Sample</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="0b78d622-e347-4656-b619-60fb29b2d6e7">
+          <ID>Sum NET AMT</ID>
+          <Name>Sum NET AMT</Name>
+          <Source dwd:design-time-name="12764f60-d726-4e1d-81c7-dfa8a020c393">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3a768500-c2a0-403c-944e-eaa68e37459e">
+              <TableID>dbo_tblRawExtract_Sample</TableID>
+              <ColumnID>sum_NET_AMT</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c8ab8c86-0449-430c-845f-9c720df6139e">
+          <CubeDimensionID>ProductDim</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="21630c46-2ad9-4efd-a366-3da9729eb20f">
+              <AttributeID>MRCH CTGRY KEY</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="15e7a68c-734a-4ce8-b896-3f6b82e7392e">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="28f4d7a9-26c4-4ede-8c4d-ed85538c3d0e">
+                    <TableID>dbo_tblRawExtract_Sample</TableID>
+                    <ColumnID>MRCH_CTGRY_KEY</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="37dc59d5-8226-4277-95eb-446c501fea56">
+          <CubeDimensionID>CalendarDim</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="03ff3721-8648-4e38-8c85-1b8a229ea2ed">
+              <AttributeID>CMPNY WK 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f5b815f8-e69c-4f63-9e02-ed10093a22ab">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fb331b69-5083-44db-a76f-e5d4bae871f7">
+                    <TableID>dbo_tblRawExtract_Sample</TableID>
+                    <ColumnID>CMPNY_WK_1</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6e56a0fd-3554-4677-8a1c-a99febb6d889">
+          <CubeDimensionID>CheckoutTypeDim</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="afb66d30-3478-4491-b3ca-69edf7e2f6be">
+              <AttributeID>XWMM POS TYP CD</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fc90ac2f-042f-48e5-8fab-5db5fcf292bb">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="36e04dd8-debe-421f-ab2d-ced7672542d4">
+                    <TableID>dbo_tblRawExtract_Sample</TableID>
+                    <ColumnID>XWMM_POS_TYP_CD</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="45ffd6d6-c9e1-4d67-8f40-35dfa01f5bb4">
+          <CubeDimensionID>MosaicDim</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="56f171a6-d806-459e-ad49-7c994348a1ed">
+              <AttributeID>REGISTERED CARD NUMBER</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a4ab91c1-beb2-4c31-b509-c15d0f0b6926">
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5c507e78-94ef-49c7-b48c-6698e3cc89bb">
+                    <TableID>dbo_tblRawExtract_Sample</TableID>
+                    <ColumnID>REGISTERED_CARD_NUMBER</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="12b7fa01-7799-423f-9308-4e32c21024c2">
+          <CubeDimensionID>StoreDim</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="fa8f8a2a-554f-477e-8692-0b1d7311860f">
+              <AttributeID>BSNS UNIT CD</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="32f40012-198a-4e18-aefa-01e4cdc866d7">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="516d48c2-f7f7-4a1d-9b76-a21f76b191b6">
+                    <TableID>dbo_tblRawExtract_Sample</TableID>
+                    <ColumnID>BSNS_UNIT_CD</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="8ce8ced3-c30b-437b-a106-2bffac7aadf5">
+    <DataSourceViewID>MorrisonsDSV</DataSourceViewID>
+  </Source>
+</Cube>

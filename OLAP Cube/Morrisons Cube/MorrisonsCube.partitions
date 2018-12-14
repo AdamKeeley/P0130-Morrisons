@@ -1,0 +1,73 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f767fddd-00b8-4231-ae78-a6cbfa5b52b7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>MorrisonsCube</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Tbl Raw Extract</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="52ebfa89-36e8-4491-b79b-8a8ab0f0ecb2">
+          <ID>Tbl Raw Extract</ID>
+          <Name>2014-2015</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="QueryBinding" dwd:design-time-name="c47f9f25-f48c-4983-8167-64e1bdb91057">
+            <DataSourceID>MorrisonsDS</DataSourceID>
+            <QueryDefinition>SELECT [dbo].[tblRawExtract].[ID],[dbo].[tblRawExtract].[CMPNY_WK_1],[dbo].[tblRawExtract].[XWMM_POS_TYP_CD],[dbo].[tblRawExtract].[sum_NET_AMT],[dbo].[tblRawExtract].[MRCH_DIV_KEY],[dbo].[tblRawExtract].[MRCH_GRP_KEY],[dbo].[tblRawExtract].[MRCH_CTGRY_KEY],[dbo].[tblRawExtract].[BSNS_UNIT_CD],[dbo].[tblRawExtract].[LNG_DESC],[dbo].[tblRawExtract].[REGISTERED_CARD_NUMBER],[dbo].[tblRawExtract].[count_TRX_NBR],[dbo].[tblRawExtract].[GENDER],[dbo].[tblRawExtract].[NUMBER_OF_CHILDREN],[dbo].[tblRawExtract].[HOUSEHOLD_SIZE],[dbo].[tblRawExtract].[DECEASED_FLAG]
+FROM [dbo].[tblRawExtract]
+WHERE CMPNY_WK_1 between 1749 and 1948</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+        <Partition dwd:design-time-name="44622776-ae13-400c-ae8b-6f42de0e4773">
+          <ID>2016</ID>
+          <Name>2016</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <Annotations>
+            <Annotation>
+              <Name>AggregationPercent</Name>
+              <Value></Value>
+            </Annotation>
+          </Annotations>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="QueryBinding" dwd:design-time-name="417d7895-c997-4f7b-9424-0aac7e5378e4">
+            <DataSourceID>MorrisonsDS</DataSourceID>
+            <QueryDefinition>SELECT [dbo].[tblRawExtract].[ID],[dbo].[tblRawExtract].[CMPNY_WK_1],[dbo].[tblRawExtract].[XWMM_POS_TYP_CD],[dbo].[tblRawExtract].[sum_NET_AMT],[dbo].[tblRawExtract].[MRCH_DIV_KEY],[dbo].[tblRawExtract].[MRCH_GRP_KEY],[dbo].[tblRawExtract].[MRCH_CTGRY_KEY],[dbo].[tblRawExtract].[BSNS_UNIT_CD],[dbo].[tblRawExtract].[LNG_DESC],[dbo].[tblRawExtract].[REGISTERED_CARD_NUMBER],[dbo].[tblRawExtract].[count_TRX_NBR],[dbo].[tblRawExtract].[GENDER],[dbo].[tblRawExtract].[NUMBER_OF_CHILDREN],[dbo].[tblRawExtract].[HOUSEHOLD_SIZE],[dbo].[tblRawExtract].[DECEASED_FLAG]
+FROM [dbo].[tblRawExtract]
+WHERE CMPNY_WK_1 between 1949 and 2048</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+        <Partition dwd:design-time-name="dbd9d35f-0a7a-4b75-b71c-3921a70ca82d">
+          <ID>2017</ID>
+          <Name>2017</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <Annotations>
+            <Annotation>
+              <Name>AggregationPercent</Name>
+              <Value></Value>
+            </Annotation>
+          </Annotations>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="QueryBinding" dwd:design-time-name="42a8044f-01f9-4ea8-beeb-4b6c0134f633">
+            <DataSourceID>MorrisonsDS</DataSourceID>
+            <QueryDefinition>SELECT [dbo].[tblRawExtract].[ID],[dbo].[tblRawExtract].[CMPNY_WK_1],[dbo].[tblRawExtract].[XWMM_POS_TYP_CD],[dbo].[tblRawExtract].[sum_NET_AMT],[dbo].[tblRawExtract].[MRCH_DIV_KEY],[dbo].[tblRawExtract].[MRCH_GRP_KEY],[dbo].[tblRawExtract].[MRCH_CTGRY_KEY],[dbo].[tblRawExtract].[BSNS_UNIT_CD],[dbo].[tblRawExtract].[LNG_DESC],[dbo].[tblRawExtract].[REGISTERED_CARD_NUMBER],[dbo].[tblRawExtract].[count_TRX_NBR],[dbo].[tblRawExtract].[GENDER],[dbo].[tblRawExtract].[NUMBER_OF_CHILDREN],[dbo].[tblRawExtract].[HOUSEHOLD_SIZE],[dbo].[tblRawExtract].[DECEASED_FLAG]
+FROM [dbo].[tblRawExtract]
+WHERE CMPNY_WK_1 between 2049 and 2148</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

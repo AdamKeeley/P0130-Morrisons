@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Morrisons Cube", "Morrisons Cube\Morrisons Cube.dwproj", "{1DD75E07-5AAA-4449-AE17-E980BBBCAD43}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Morrisons Cube v2", "Morrisons Cube v2\Morrisons Cube v2.dwproj", "{4626940B-F5E3-4A06-9E18-B18CF613E3FD}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Morrisons Cube Mini", "Morrisons Cube Mini\Morrisons Cube Mini.dwproj", "{EC76627A-AA6E-4A5E-87E5-27F1B29B0126}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DD75E07-5AAA-4449-AE17-E980BBBCAD43}.Development|Default.ActiveCfg = Development
+		{1DD75E07-5AAA-4449-AE17-E980BBBCAD43}.Development|Default.Build.0 = Development
+		{1DD75E07-5AAA-4449-AE17-E980BBBCAD43}.Development|Default.Deploy.0 = Development
+		{4626940B-F5E3-4A06-9E18-B18CF613E3FD}.Development|Default.ActiveCfg = Development
+		{4626940B-F5E3-4A06-9E18-B18CF613E3FD}.Development|Default.Build.0 = Development
+		{4626940B-F5E3-4A06-9E18-B18CF613E3FD}.Development|Default.Deploy.0 = Development
+		{EC76627A-AA6E-4A5E-87E5-27F1B29B0126}.Development|Default.ActiveCfg = Development
+		{EC76627A-AA6E-4A5E-87E5-27F1B29B0126}.Development|Default.Build.0 = Development
+		{EC76627A-AA6E-4A5E-87E5-27F1B29B0126}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

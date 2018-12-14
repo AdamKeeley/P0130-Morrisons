@@ -1,0 +1,272 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="690a5c9d-25ae-4a56-863c-d21ac2c11786" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CalendarDim</ID>
+  <Name>CalendarDim</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3287" scrolltop="-8348" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9737" y="17542" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vwCalendarDateDim" left="-2361" top="-5265" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5132" height="8042" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00000c1400006a1f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_vwCalendarDateDim" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3287</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-8348</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-2361</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-5265</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="100">
+            <Shape Id="CMPNY WK 1" Expanded="true">
+              <Attributes>
+                <Attribute Id="CMPNY WK 1" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Month Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Month Name" />
+              </Attributes>
+              <Position x="150" y="20" />
+            </Shape>
+            <Shape Id="c Quarter" Expanded="false">
+              <Attributes>
+                <Attribute Id="c Quarter" />
+              </Attributes>
+              <Position x="280" y="20" />
+            </Shape>
+            <Shape Id="Year" Expanded="false">
+              <Attributes>
+                <Attribute Id="Year" />
+              </Attributes>
+              <Position x="410" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="9a02229c-341e-4fd8-bddb-e38d9830e8f8">
+    <DataSourceViewID>MorrisonsDSV</DataSourceViewID>
+  </Source>
+  <Type>Time</Type>
+  <ErrorConfiguration dwd:design-time-name="7ad12372-df87-4c50-bb9d-b80b569cc743">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="b96e2f23-5879-4b35-88cf-33d37ceb5c1c">
+      <ID>CMPNY WK 1</ID>
+      <Name>CMPNY WK 1</Name>
+      <Type>ReportingWeeks</Type>
+      <Usage>Key</Usage>
+      <EstimatedCount>209</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="44f9039a-eaf0-4a5e-a8e9-6d124084f6e8">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a6f89de0-ed68-4b90-be63-95b51d393ba3">
+            <TableID>dbo_vwCalendarDateDim</TableID>
+            <ColumnID>CMPNY_WK_1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3f2affaa-dec4-4fa1-809c-241b915273cf">
+          <AttributeID>Month Name</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Month Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b1195b8c-0123-4d23-b623-0ee69d52bf08">
+      <ID>Year</ID>
+      <Name>Year</Name>
+      <Type>Years</Type>
+      <EstimatedCount>6</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4d7f5ac0-6ff9-450b-9357-843028f2dfa8">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="14118c54-8475-4428-8133-a085e4428bb7">
+            <TableID>dbo_vwCalendarDateDim</TableID>
+            <ColumnID>Year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0341f41d-de49-4034-a506-3f87dee190d1">
+      <ID>Month Name</ID>
+      <Name>Month Name</Name>
+      <Type>Months</Type>
+      <EstimatedCount>49</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1146e642-ba83-4cfe-8fe6-204899096230">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2e9b2348-87e4-4380-910b-48bf07b9f9e6">
+            <TableID>dbo_vwCalendarDateDim</TableID>
+            <ColumnID>Year</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="2e3cc5aa-75e6-48aa-b9a7-a9dbbecd0563">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="79f90076-401f-46e9-98a4-13cf2f158ae6">
+            <TableID>dbo_vwCalendarDateDim</TableID>
+            <ColumnID>cQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="e61e0914-15b2-48e1-b545-bf34a8da0de4">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="46f2416c-af17-41d5-976b-4ff6ffe33e1c">
+            <TableID>dbo_vwCalendarDateDim</TableID>
+            <ColumnID>Month</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="9103d149-c0d6-443c-a35b-0ea6f46cbefe">
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="2eda82b6-6439-438f-8068-bbeb23bd41e7">
+          <TableID>dbo_vwCalendarDateDim</TableID>
+          <ColumnID>MonthName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="926df91a-7c1b-49ef-9b0e-6ba6266147e3">
+          <AttributeID>c Quarter</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>c Quarter</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0d0fc18e-1de6-4230-a0d6-04527561681f">
+      <ID>c Quarter</ID>
+      <Name>c Quarter</Name>
+      <Type>Quarters</Type>
+      <EstimatedCount>18</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cd7f1894-a8bb-4c93-8ede-1ce27df0f618">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9c6c0639-3a00-420a-aff0-1119b12b3c15">
+            <TableID>dbo_vwCalendarDateDim</TableID>
+            <ColumnID>Year</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="c69271a0-9933-4f80-ae93-fd084ff606aa">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3209cf41-cd1a-4ce3-8d39-8bfedb3b5363">
+            <TableID>dbo_vwCalendarDateDim</TableID>
+            <ColumnID>cQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="39bcac56-c6cb-4111-a441-a381b1a95851">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="74c7f54f-ff80-48eb-9885-388d0d79393e">
+          <TableID>dbo_vwCalendarDateDim</TableID>
+          <ColumnID>cQuarter</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="dcd16953-6a74-4d15-8131-4a1a137a3163">
+          <AttributeID>Year</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="570fc40f-0deb-4502-92cb-f74cc926b430">
+      <ID>Hierarchy</ID>
+      <Name>Calendar Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="58a801e0-35fd-4e6e-8d23-3827ab1a4c84">
+          <ID>Year</ID>
+          <Name>Year</Name>
+          <SourceAttributeID>Year</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="239c1fe5-138a-47de-9d35-44a0a0e22eaf">
+          <ID>c Quarter</ID>
+          <Name>Calendar Quarter</Name>
+          <SourceAttributeID>c Quarter</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f00db367-50bd-469d-9c65-625aa790a06b">
+          <ID>Month Name</ID>
+          <Name>Month Name</Name>
+          <SourceAttributeID>Month Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="a7a9c10c-1421-4efc-8fbc-9ae3dae166c2">
+          <ID>CMPNY WK 1</ID>
+          <Name>Week Number</Name>
+          <SourceAttributeID>CMPNY WK 1</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

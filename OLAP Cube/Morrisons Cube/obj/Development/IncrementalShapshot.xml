@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Morrisons Cube</Database>
+    <Server>IRC-VM0083</Server>
+    <ConnectionString>Data Source=IRC-VM0083;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>LTOP5sXLpS2z8ABDImDtrj91Dyg=08/06/2018 09:57:2016/01/2018 11:42:44</TimeStamp>
+        <ID>
+          <String>MorrisonsDS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>SOxnQ8SNAwuFtUMyYNuEvbbOXMI=25/06/2018 19:11:4116/01/2018 11:43:54</TimeStamp>
+        <ID>
+          <String>MorrisonsDSV</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3JAVhXiH1PxoEk2dTF53YSfIT/M=06/07/2018 14:05:2816/01/2018 15:34:37</TimeStamp>
+        <ID>
+          <String>CalendarDim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KK8sgExaBaXbDM36Bj/k7z8zL1I=25/06/2018 18:25:1617/01/2018 10:50:05</TimeStamp>
+        <ID>
+          <String>CheckoutTypeDim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5hRTQk502RjhEtZxRbUlF/HbDWU=06/07/2018 14:05:5617/01/2018 11:32:49</TimeStamp>
+        <ID>
+          <String>ProductDim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Yvm9e788PO5ASrVx6U+/vjNQFvQ=06/07/2018 14:06:0825/06/2018 17:58:06</TimeStamp>
+        <ID>
+          <String>StoreDim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oZDgXWZpKZiqQVVJpHYNlAqeuHs=06/07/2018 14:06:2525/06/2018 17:59:08</TimeStamp>
+        <ID>
+          <String>MosaicDim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>SgP6bD8VdXaRR12u9BBIVeqlHck=25/06/2018 19:07:1222/05/2018 15:16:31kxd0pROpKHXZReE8jeQFh481XgM=25/06/2018 19:07:1222/05/2018 15:16:31</TimeStamp>
+        <ID>
+          <String>MorrisonsCube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>k0zbR5xDl8J2C5f6MnPiF/KL5Ts=12/06/2018 11:15:3718/01/2018 11:59:24</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>e1g4WyYzuoBZGvSfH7/t4pyFbHk=18/01/2018 12:01:0716/01/2018 11:42:03</TimeStamp>
+      <ID>
+        <String>Morrisons Cube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-07-06T13:49:22.2Z</LastDeployed>
+</DeploymentSnapshot>

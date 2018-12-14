@@ -1,0 +1,416 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="19a62369-fa2c-4a02-9415-3b9b1cc4f5d0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>MorrisonsDSV</ID>
+  <Name>MorrisonsDSV</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="30" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="497" scrolltop="-1505" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="80" x="18574" y="13361" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vwCalendarDateDim" left="8644" top="12525" logicalid="12" controlid="1" masterid="0" hint1="0" hint2="0" width="3360" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000200d000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_vwCalendarDateDim" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="nqProduct" left="2328" top="12525" logicalid="13" controlid="2" masterid="0" hint1="0" hint2="0" width="3916" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c00004c0f0000fe080000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="nqProduct" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="tlkCheckoutType" left="0" top="6685" logicalid="14" controlid="3" masterid="0" hint1="0" hint2="0" width="4180" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c00005410000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="nqCheckoutType" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="nqStore" left="7691" top="0" logicalid="15" controlid="4" masterid="0" hint1="0" hint2="0" width="3201" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000810c0000a50a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="nqLookupSegment" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="nqMosaicScores" left="15434" top="6503" logicalid="16" controlid="5" masterid="0" hint1="0" hint2="0" width="5315" height="2587" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000c31400001b0a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_tblMosaicScores" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="tblRawExtract" left="6615" top="3800" logicalid="24" controlid="13" masterid="0" hint1="0" hint2="0" width="5788" height="7811" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c00009c160000831e0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_tblRawExtract" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="3880" top="7225" logicalid="25" controlid="14" masterid="0" hint1="0" hint2="0" width="3035" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_nqCheckoutType_dbo_tblRawExtract]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="13" sourceattachpoint="17" destattachpoint="34" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="4180" y="7624" />
+                    <point x="6215" y="7624" />
+                    <point x="6215" y="7705" />
+                    <point x="6615" y="7705" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="5537" top="11311" logicalid="26" controlid="15" masterid="0" hint1="0" hint2="0" width="1522" height="1714" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblRawExtract-nqProduct]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="13" sourceattachpoint="12" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="5936" y="12525" />
+                    <point x="5936" y="12068" />
+                    <point x="6759" y="12068" />
+                    <point x="6759" y="11611" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="8659" top="11311" logicalid="27" controlid="16" masterid="0" hint1="0" hint2="0" width="965" height="1714" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblRawExtract-vwCalendarDateDim]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="13" sourceattachpoint="0" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="9224" y="12525" />
+                    <point x="9224" y="12068" />
+                    <point x="8959" y="12068" />
+                    <point x="8959" y="11611" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="12103" top="6297" logicalid="28" controlid="17" masterid="0" hint1="0" hint2="0" width="3631" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblRawExtract-nqMosaicScores]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="13" sourceattachpoint="18" destattachpoint="31" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="15434" y="6696" />
+                    <point x="13919" y="6696" />
+                    <point x="13919" y="6605" />
+                    <point x="12403" y="6605" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="7792" top="2226" logicalid="29" controlid="18" masterid="0" hint1="0" hint2="0" width="917" height="1874" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblRawExtract-nqStore]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="13" sourceattachpoint="1" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="8191" y="2725" />
+                    <point x="8191" y="3262" />
+                    <point x="8409" y="3262" />
+                    <point x="8409" y="3800" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>497</DiagramViewPortLeft>
+            <DiagramViewPortTop>-1505</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>80</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>MorrisonsDS</DataSourceID>
+  <Schema>
+    <xs:schema id="MorrisonsDSV" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="MorrisonsDSV" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="eb84c2dc-82cb-43d6-a743-3392426b3f64">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_vwCalendarDateDim" msprop:design-time-name="f4081145-165d-40b4-895a-6f2a77a9e57a" msprop:FriendlyName="vwCalendarDateDim" msprop:DbSchemaName="dbo" msprop:DbTableName="vwCalendarDateDim" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CMPNY_WK_1" msprop:design-time-name="0096047a-85b4-4204-9257-7d590ff27977" msprop:DbColumnName="CMPNY_WK_1" msprop:FriendlyName="CMPNY_WK_1" type="xs:int" />
+                  <xs:element name="Date_Wk_Comm" msprop:design-time-name="1e459d4d-6158-4057-a3f8-e702308433ce" msprop:DbColumnName="Date_Wk_Comm" msprop:FriendlyName="Date_Wk_Comm" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="mQuarter" msprop:design-time-name="e4bb17e9-4547-49c0-9ee0-932680c00e8e" msprop:DbColumnName="mQuarter" msprop:FriendlyName="mQuarter" type="xs:int" minOccurs="0" />
+                  <xs:element name="DateKey" msprop:design-time-name="20fd47ba-5d98-421a-9745-a8c6670e486d" msprop:DbColumnName="DateKey" msprop:FriendlyName="DateKey" type="xs:int" />
+                  <xs:element name="DateTime" msprop:design-time-name="9c27f39c-a7d2-42c3-aa01-7a4c11b2e5d4" msprop:DbColumnName="DateTime" msprop:FriendlyName="DateTime" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Date" msprop:design-time-name="593e19bc-7134-46c1-8edc-051fa46ccf31" msprop:DbColumnName="Date" msprop:FriendlyName="Date" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Year" msprop:design-time-name="744f4772-d371-4c15-8b56-4ebffc71f365" msprop:DbColumnName="Year" msprop:FriendlyName="Year" type="xs:int" minOccurs="0" />
+                  <xs:element name="cQuarter" msprop:design-time-name="662fd9cf-9bea-4a97-bec3-5b609682ecd5" msprop:DbColumnName="cQuarter" msprop:FriendlyName="cQuarter" type="xs:int" minOccurs="0" />
+                  <xs:element name="Month" msprop:design-time-name="7bd42b50-9806-4c80-ae1f-93d4543c3616" msprop:DbColumnName="Month" msprop:FriendlyName="Month" type="xs:int" minOccurs="0" />
+                  <xs:element name="MonthName" msprop:design-time-name="f0532608-9de5-492c-9452-b836a88c4d9e" msprop:DbColumnName="MonthName" msprop:FriendlyName="MonthName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DayOfMonth" msprop:design-time-name="b49ea46c-37d9-4b0a-aec6-821c666d0d58" msprop:DbColumnName="DayOfMonth" msprop:FriendlyName="DayOfMonth" type="xs:int" minOccurs="0" />
+                  <xs:element name="DayOfWeek" msprop:design-time-name="19683e65-b0e7-4db8-b8c7-06f447ca5594" msprop:DbColumnName="DayOfWeek" msprop:FriendlyName="DayOfWeek" type="xs:int" minOccurs="0" />
+                  <xs:element name="DayName" msprop:design-time-name="fbf57343-dcec-4df3-97c1-ca6031c984d3" msprop:DbColumnName="DayName" msprop:FriendlyName="DayName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="FiscalYear" msprop:design-time-name="dcdec0ae-456f-4bfc-b8c0-7927ce0570bb" msprop:DbColumnName="FiscalYear" msprop:FriendlyName="FiscalYear" type="xs:int" minOccurs="0" />
+                  <xs:element name="FiscalQuarter" msprop:design-time-name="1eeb1fbf-6f69-44b2-8529-da2e88c11d5a" msprop:DbColumnName="FiscalQuarter" msprop:FriendlyName="FiscalQuarter" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="nqProduct" msprop:design-time-name="9ddb689f-889f-4981-a744-0eac0a715389" msprop:IsLogical="True" msprop:FriendlyName="nqProduct" msprop:DbTableName="nqProduct" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT DISTINCT MRCH_CTGRY_KEY, MRCH_GRP_KEY, MRCH_DIV_KEY&#xD;&#xA;FROM            tblRawExtract" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="MRCH_DIV_KEY" msprop:design-time-name="f3d29340-f42d-4af4-9746-3cc150a4254a" msprop:DbColumnName="MRCH_DIV_KEY" msprop:FriendlyName="MRCH_DIV_KEY" type="xs:int" minOccurs="0" />
+                  <xs:element name="MRCH_GRP_KEY" msprop:design-time-name="bbbbf5b3-8cb0-4b16-bab2-2bdcbb5ed540" msprop:DbColumnName="MRCH_GRP_KEY" msprop:FriendlyName="MRCH_GRP_KEY" type="xs:int" minOccurs="0" />
+                  <xs:element name="MRCH_CTGRY_KEY" msprop:design-time-name="73124a2c-0661-4511-a6f3-bc00bb79cefb" msprop:DbColumnName="MRCH_CTGRY_KEY" msprop:FriendlyName="MRCH_CTGRY_KEY" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="nqCheckoutType" msprop:design-time-name="7014d343-6122-40f5-9bec-de96e7ac3d97" msprop:FriendlyName="tlkCheckoutType" msprop:DbSchemaName="dbo" msprop:DbTableName="tlkCheckoutType" msprop:TableType="Table" msprop:Description="" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="XWMM_POS_TYP_CD" msdata:ReadOnly="true" msprop:design-time-name="ab08f2ee-b4e2-42be-b2a2-e5fc1ab9894a" msprop:DbColumnName="XWMM_POS_TYP_CD" msprop:FriendlyName="XWMM_POS_TYP_CD" type="xs:int" />
+                  <xs:element name="Name" msprop:design-time-name="5a1f9dc3-9b33-438c-91e8-62e67080fa63" msprop:DbColumnName="Name" msprop:FriendlyName="Name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="nqLookupSegment" msprop:design-time-name="1c6d30c5-0c94-439e-be1c-1a1046f1868b" msprop:IsLogical="True" msprop:FriendlyName="nqStore" msprop:DbTableName="nqStore" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT DISTINCT re.BSNS_UNIT_CD, re.LNG_DESC, COALESCE (ls.Segment, '') AS Segment&#xD;&#xA;FROM            tblRawExtract AS re LEFT OUTER JOIN&#xD;&#xA;                         lookup_segment AS ls ON re.BSNS_UNIT_CD = ls.Morrisons_Store_Number" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="BSNS_UNIT_CD" msprop:design-time-name="33970d6a-b8ab-49a7-9f12-846491861c91" msprop:DbColumnName="BSNS_UNIT_CD" msprop:FriendlyName="BSNS_UNIT_CD" type="xs:int" minOccurs="0" />
+                  <xs:element name="Segment" msprop:design-time-name="4361d10d-6d5d-4873-a6ee-b06ed12e7603" msprop:DbColumnName="Segment" msprop:FriendlyName="Segment" type="xs:int" minOccurs="0" />
+                  <xs:element name="LNG_DESC" msprop:design-time-name="36a46cef-4674-40be-a5d2-f598ee45c36f" msprop:DbColumnName="LNG_DESC" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_tblMosaicScores" msprop:design-time-name="3174b344-6d42-4db3-aa43-c71023728379" msprop:IsLogical="True" msprop:FriendlyName="nqMosaicScores" msprop:DbTableName="nqMosaicScores" msprop:TableType="View" msprop:QueryDefinition="SELECT DISTINCT re.REGISTERED_CARD_NUMBER, COALESCE (m.MosaicUK_G, '') AS MosaicUK_G, COALESCE (m.MosaicUK_T, '') AS MosaicUK_T&#xD;&#xA;FROM            tblRawExtract AS re LEFT OUTER JOIN&#xD;&#xA;                         tblMosaicScores AS m ON re.REGISTERED_CARD_NUMBER = m.CARD_NBR" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="MosaicUK_G" msprop:design-time-name="29538639-0d87-49ab-8636-7e577ef6507e" msprop:DbColumnName="MosaicUK_G" msprop:FriendlyName="MosaicUK_G" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MosaicUK_T" msprop:design-time-name="1c142082-c48a-4155-bab7-add4d7dff250" msprop:DbColumnName="MosaicUK_T" msprop:FriendlyName="MosaicUK_T" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="REGISTERED_CARD_NUMBER" msprop:design-time-name="6c160d98-7741-4810-a490-c74af63353bb" msprop:DbColumnName="REGISTERED_CARD_NUMBER" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_tblRawExtract" msprop:design-time-name="d82b6553-55ed-4cba-a902-927f97cf6801" msprop:DbTableName="tblRawExtract" msprop:FriendlyName="tblRawExtract" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="80aa8170-9232-44e0-b606-bead2d31e35d" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:long" />
+                  <xs:element name="CMPNY_WK_1" msprop:design-time-name="9e7ad5c5-92f2-47db-a103-7c1733ae1174" msprop:DbColumnName="CMPNY_WK_1" msprop:FriendlyName="CMPNY_WK_1" type="xs:int" minOccurs="0" />
+                  <xs:element name="XWMM_POS_TYP_CD" msprop:design-time-name="46f69492-72c8-4b38-8eae-2531367b7152" msprop:DbColumnName="XWMM_POS_TYP_CD" msprop:FriendlyName="XWMM_POS_TYP_CD" type="xs:int" minOccurs="0" />
+                  <xs:element name="sum_NET_AMT" msprop:design-time-name="f349aab4-d10b-4df1-bd36-ec75bde8f3d7" msprop:DbColumnName="sum_NET_AMT" msprop:FriendlyName="sum_NET_AMT" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="MRCH_DIV_KEY" msprop:design-time-name="a982401e-ebc6-4e7d-9d2c-c0c603ae1ea7" msprop:DbColumnName="MRCH_DIV_KEY" msprop:FriendlyName="MRCH_DIV_KEY" type="xs:int" minOccurs="0" />
+                  <xs:element name="MRCH_GRP_KEY" msprop:design-time-name="7d42a377-6e6d-4de7-9450-fc4e401a949e" msprop:DbColumnName="MRCH_GRP_KEY" msprop:FriendlyName="MRCH_GRP_KEY" type="xs:int" minOccurs="0" />
+                  <xs:element name="MRCH_CTGRY_KEY" msprop:design-time-name="2d0b55f2-af8c-44e4-928e-581016c5901b" msprop:DbColumnName="MRCH_CTGRY_KEY" msprop:FriendlyName="MRCH_CTGRY_KEY" type="xs:int" minOccurs="0" />
+                  <xs:element name="BSNS_UNIT_CD" msprop:design-time-name="c4a980c0-da74-4a61-aec2-a323b1395dc5" msprop:DbColumnName="BSNS_UNIT_CD" msprop:FriendlyName="BSNS_UNIT_CD" type="xs:int" minOccurs="0" />
+                  <xs:element name="LNG_DESC" msprop:design-time-name="c56674bf-f41b-423e-9dc2-53a10c420454" msprop:DbColumnName="LNG_DESC" msprop:FriendlyName="LNG_DESC" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="REGISTERED_CARD_NUMBER" msprop:design-time-name="0df03e10-1202-442d-b109-ecd920da4dba" msprop:DbColumnName="REGISTERED_CARD_NUMBER" msprop:FriendlyName="REGISTERED_CARD_NUMBER" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="count_TRX_NBR" msprop:design-time-name="d765de17-f928-496a-9789-0dace73a9a3d" msprop:DbColumnName="count_TRX_NBR" msprop:FriendlyName="count_TRX_NBR" type="xs:int" minOccurs="0" />
+                  <xs:element name="GENDER" msprop:design-time-name="0253da86-85ed-4fff-963b-7db5f6a46e6f" msprop:DbColumnName="GENDER" msprop:FriendlyName="GENDER" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="12" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NUMBER_OF_CHILDREN" msprop:design-time-name="faffe5c2-a526-4d0b-a81c-edbdc3d2b795" msprop:DbColumnName="NUMBER_OF_CHILDREN" msprop:FriendlyName="NUMBER_OF_CHILDREN" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="HOUSEHOLD_SIZE" msprop:design-time-name="8c8225c6-ee8c-469e-be92-8295004c8848" msprop:DbColumnName="HOUSEHOLD_SIZE" msprop:FriendlyName="HOUSEHOLD_SIZE" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DECEASED_FLAG" msprop:design-time-name="a86f4286-0cd7-40a8-a3e1-a459b2deabbe" msprop:DbColumnName="DECEASED_FLAG" msprop:FriendlyName="DECEASED_FLAG" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_vwCalendarDateDim" />
+          <xs:field xpath="CMPNY_WK_1" />
+          <xs:field xpath="DateKey" />
+        </xs:unique>
+        <xs:unique name="nqProduct_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//nqProduct" />
+          <xs:field xpath="MRCH_CTGRY_KEY" />
+        </xs:unique>
+        <xs:unique name="nqCheckoutType_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//nqCheckoutType" />
+          <xs:field xpath="XWMM_POS_TYP_CD" />
+        </xs:unique>
+        <xs:unique name="nqLookupSegment_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//nqLookupSegment" />
+          <xs:field xpath="BSNS_UNIT_CD" />
+        </xs:unique>
+        <xs:unique name="dbo_tblMosaicScores_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_tblMosaicScores" />
+          <xs:field xpath="REGISTERED_CARD_NUMBER" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="FK_nqCheckoutType_dbo_tblRawExtract" msdata:parent="nqCheckoutType" msdata:child="dbo_tblRawExtract" msdata:parentkey="XWMM_POS_TYP_CD" msdata:childkey="XWMM_POS_TYP_CD" />
+          <msdata:Relationship name="tblRawExtract-nqProduct" msdata:parent="nqProduct" msdata:child="dbo_tblRawExtract" msdata:parentkey="MRCH_CTGRY_KEY" msdata:childkey="MRCH_CTGRY_KEY" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="tblRawExtract-vwCalendarDateDim" msdata:parent="dbo_vwCalendarDateDim" msdata:child="dbo_tblRawExtract" msdata:parentkey="CMPNY_WK_1" msdata:childkey="CMPNY_WK_1" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="tblRawExtract-nqMosaicScores" msdata:parent="dbo_tblMosaicScores" msdata:child="dbo_tblRawExtract" msdata:parentkey="REGISTERED_CARD_NUMBER" msdata:childkey="REGISTERED_CARD_NUMBER" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="tblRawExtract-nqStore" msdata:parent="nqLookupSegment" msdata:child="dbo_tblRawExtract" msdata:parentkey="BSNS_UNIT_CD" msdata:childkey="BSNS_UNIT_CD" msprop:IsLogical="True" msprop:Description="" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <MorrisonsDSV xmlns="" />
+  </Schema>
+</DataSourceView>
